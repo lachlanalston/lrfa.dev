@@ -1,2 +1,2 @@
 ---
-- Website for lrfa.dev
+- Website for [lrfa.dev](https://lrfa.dev/)
