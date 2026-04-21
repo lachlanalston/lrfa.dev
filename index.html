@@ -5,68 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LRFA.dev</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Floating background circles -->
   <div class="bg-circle"></div>
   <div class="bg-circle"></div>
   <div class="bg-circle"></div>
 
-  <h1>LRFA.dev</h1>
+  <div class="container">
+    <header>
+      <h1>LRFA.dev</h1>
+      <p class="intro">A collection of tools and projects built by <a href="https://alston.id.au" target="_blank">Lachlan Alston</a>.</p>
+    </header>
 
-  <p class="intro">
-    Welcome to LRFA.dev — a small corner of the internet where useful tools live.
-    Click a button to open a tool.
-  </p>
+    <div class="tool-grid">
+      <a class="tool-card" href="https://benchcheck.lrfa.dev/" target="_blank">
+        <span class="tool-name">BenchCheck</span>
+        <span class="tool-desc">Fast all-in-one hardware test. Check speakers, microphones, and webcams safely in a single browser screen — no data collected.</span>
+      </a>
 
-  <div class="tool-buttons">
-    <a 
-      class="tool-button" 
-      href="https://benchcheck.lrfa.dev/" 
-      target="_blank"
-      data-description="Fast all-in-one hardware test. Check speakers, microphones, and webcams safely in a single browser screen — no data is collected.">
-      BenchCheck
-    </a>
+      <a class="tool-card" href="https://edgescope.lrfa.dev/" target="_blank">
+        <span class="tool-name">EdgeScope</span>
+        <span class="tool-desc">Inspect and debug browser edges, layouts, and viewport behavior in real time.</span>
+      </a>
 
-    <a
-      class="tool-button"
-      href="https://edgescope.lrfa.dev/"
-      target="_blank"
-      data-description="EdgeScope — inspect and debug browser edges, layouts, and viewport behavior in real time.">
-      EdgeScope
-    </a>
+      <a class="tool-card" href="https://tools.lrfa.dev/" target="_blank">
+        <span class="tool-name">Tools</span>
+        <span class="tool-desc">Browse and access scripts, commands, and bookmarks via a clean web interface.</span>
+      </a>
 
-    <a
-      class="tool-button"
-      href="https://tools.lrfa.dev/"
-      target="_blank"
-      data-description="Tools — a web interface to browse and access my scripts, commands, and bookmarks.">
-      Tools
-    </a>
+      <a class="tool-card" href="https://tracely.lrfa.dev/" target="_blank">
+        <span class="tool-name">Tracely</span>
+        <span class="tool-desc">A diagnostic tool built for technicians to quickly identify and troubleshoot Internet and NBN issues.</span>
+      </a>
 
-    <a
-      class="tool-button"
-      href="https://tracely.lrfa.dev/"
-      target="_blank"
-      data-description="Tracely — a diagnostic tool built for technicians to quickly identify and troubleshoot Internet and NBN issues.">
-      Tracely
-    </a>
+      <a class="tool-card" href="https://atlas.lrfa.dev/" target="_blank">
+        <span class="tool-name">Atlas</span>
+        <span class="tool-desc">Everything you need for IP-based threat investigation and helpdesk diagnostics.</span>
+      </a>
 
-    <a
-      class="tool-button"
-      href="https://atlas.lrfa.dev/"
-      target="_blank"
-      data-description="Atlas — everything you need for IP-based threat investigation and helpdesk diagnostics.">
-      Atlas
-    </a>
+      <a class="tool-card" href="https://lachlanalston.github.io/SecuRadar/" target="_blank">
+        <span class="tool-name">SecuRadar</span>
+        <span class="tool-desc">Security monitoring and radar tool for tracking threats and vulnerabilities.</span>
+      </a>
+
+      <a class="tool-card" href="https://eventful.lrfa.dev/" target="_blank">
+        <span class="tool-name">Eventful</span>
+        <span class="tool-desc">Event management and tracking tool.</span>
+      </a>
+
+      <a class="tool-card" href="https://browserlab.au/" target="_blank">
+        <span class="tool-name">BrowserLab</span>
+        <span class="tool-desc">Browser testing and compatibility tool.</span>
+      </a>
+    </div>
+
+    <footer>
+      <span>2026 LRFA &mdash; <a href="https://alston.id.au" target="_blank">alston.id.au</a></span>
+    </footer>
   </div>
-
-  <footer>
-    2026 LRFA
-  </footer>
 
 </body>
 </html>
